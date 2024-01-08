@@ -10,7 +10,7 @@ Storage Recipe é um aplicativo de receitas cujo objetivo principal é proporcio
 
 ## Tecnologias Utilizadas
 
-- Desenvolvido utilizando tecnologias web modernas (HTML, CSS, JavaScript).
+- HTML, CSS (FlexBox), JavaScript.
 - Integração com duas APIs distintas: TheMealDB para comidas e TheCocktailDB para bebidas.
 - Implementação de testes unitários utilizando Jest.
 
