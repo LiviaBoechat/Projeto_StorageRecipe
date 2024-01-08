@@ -22,4 +22,28 @@ Storage Recipe é um aplicativo de receitas cujo objetivo principal é proporcio
 - Utilizar o React Hook useEffect
 - Criar Hooks customizados
 
+## Como Executar
+
+<details>
+ <summary><strong> Passo a passo</strong></summary>
+  
+1. Clone o repositório
+
+- Use o comando: `git clone git@github.com:LiviaBoechat/Projeto_StorageRecipe.git`
+- Entre na pasta do repositório que você acabou de clonar:
+    - `cd projeto_storageRecipe-agrix`
+
+2. Instale as dependências
+
+- `npm install`
+
+3. Execute o projeto
+   
+- `cd src/ && npm start`
+
+3. Execute o testes
+   
+- npm test`
+
+</details>
 
