@@ -1,6 +1,6 @@
 # Storage Recipe
 
-  <summary><strong> Habilidades trabalhadas</strong></summary>
+## Habilidades trabalhadas
 
 - Aplicação o conhecimento do ecossistema Spring para criar rotas da API.
 - Aplicação a injeção de dependência para conectar as camadas de controle, serviço e persistência.
