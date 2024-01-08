@@ -43,7 +43,7 @@ Storage Recipe é um aplicativo de receitas cujo objetivo principal é proporcio
 
 3. Execute o testes
    
-- npm test`
+- `npm test`
 
 </details>
 
