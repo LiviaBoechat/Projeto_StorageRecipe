@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+
+  /*gradiente*/
+
+  --cor01:#DBE2EC;
+  --cor02: #0E23E5;
+  --cor04: #a12323;
+  --cor04:#052858de;
+
+  --fonte-primary: 'League Gothic', sans-serif;
+  --font-second: 'Lekton', sans-serif;
+  --font-recipes: 'Marcellus', serif;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.carousel {
+  padding-bottom: 2%;
+  max-width: 50%;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.carousel-card {
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  max-height: 400px;
+  max-width: 300px;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+.recommendation-cards {
+  height: 250px;
+  width: 150px;
+}
+
+.carousel-card img {
+  height: 150px;
+  object-fit: cover;
+  width: 150px;
+}
+
+.carousel-card h3 {
+  font-size: 1.2rem;
+  margin: 0.5rem;
+}

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+:root {
+
+  /*gradiente*/
+
+  --cor01:#DBE2EC;
+  --cor02: #0E23E5;
+  --cor04: #a12323;
+  --cor04:#052858de;
+
+  --fonte-primary: 'League Gothic', sans-serif;
+  --font-second: 'Lekton', sans-serif;
+  --font-recipes: 'Marcellus', serif;
+}
+
+::-webkit-scrollbar {
+  width: 0%;
+  height: 0%;
+}
+
+.favorites-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 80%;
+  height: 100%;
+  background-color: #05285827;;
+}
+
+.tilte-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  max-width: 100%;
+  height: 10%;
+  background-color: #af454536;
+}
+
+.myFavorites-title {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  width: 30%;
+  color: var(--cor02);
+  font-size: 2rem;
+  font-family: var(--font-second);
+  word-spacing: 0.1rem;
+/*   background-color: #233aa1; */
+}
+
+.favorite-category-btn-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  overflow: scroll;
+/*   background-color: #cebf7c; */
+}
+
+.eachFavoriteCategory-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 20px;
+  border: 1px solid var(--cor02);
+  outline-color: #516774;
+  width: 47px;
+  height: 34px;
+  text-align: center;
+  transition: background-color 0.3s ease-out;
+  background-color: var(--cor02);
+}
+
+.heart-btn {
+  background-color: #cebf7c00;
+  border-color: #cebf7c00;
+}
+
+.heart-btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 10%;
+  margin-right: 3%;
+/*   background-color: #81db9588; */
+}
+
+.favorite-cards-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha quando não houver espaço */
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  padding: 1% 0% 2% 2%;
+  overflow: scroll;
+/*   background-color: #0d140a; */
+}
+
+.eachFavoritecard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 0 0 calc(30% - 3%); /* Adjust the width and gap accordingly */
+  box-sizing: border-box;
+  margin: 1%; 
+  min-height: 10%;
+  box-sizing: border-box; 
+  background-color: rgba(213, 216, 236, 0.137);
+}
+
+.eachFavoritecard img {
+  max-height: 65%;
+  max-width: 65%; /* Evitar que a imagem ultrapasse o container */
+  height: auto; /* Manter proporção original */
+  border-radius: 50%;
+ /*  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3); */
+}
+
+.eachFavoritecard img:hover {
+  cursor: pointer;
+  transform: translateY(-2%);
+  box-shadow: 0px 0px 20px 0px #a1232385;
+}
+
+.eachFavoritecard img:hover {
+  cursor: pointer;
+  transform: translateY(-2%);
+/*   box-shadow: 0px 0px 20px 0px #a1232385; */
+}
+
+.eachFavoritecard p {
+  flex-wrap: wrap;
+  color: var(--cor02);
+  font-family: var(--font-recipes);
+  margin-left: 10%; /* Adicionar margem entre a imagem e o texto */
+  text-align: left; 
+  font-size: 1.2rem;
+/*   background-color: aqua; */
+}

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+
+  /*gradiente*/
+
+  --cor01:#DBE2EC;
+  --cor02: #0E23E5;
+  --cor03: #052858;
+  --cor04:#a12323;
+
+
+  --fonte-primary: 'League Gothic', sans-serif;
+  --font-second: 'Lekton', sans-serif;
+  --font-recipes: 'Marcellus', serif;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.all-profile-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images//PAPEL\ PAREDE\ FOLHAS.png"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+ /*    background-color: rgb(219, 170, 158); */
+  }
+
+  .profile-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;
+    margin-top: max(2%, 3vh);
+    width: 70%;
+    height: 78%; 
+    font-size: 1.5em;
+/*     background-color: #a6a0d8; */
+  }
+
+  .sidebar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    width: 20%;
+    height: 100%; 
+    padding: 2% 0% 2% 0%;
+    font-size: 1.5rem;
+    background-color: #0528583b;
+  }
+
+  .profile-p {
+		color: var(--cor03);
+    margin-left: 15%;
+    font-size: 0.8em;
+    font-family: var(--bs-body-font-family);   
+  }
+
+  .user-email-profile {
+		color: var(--cor03);
+    margin-left: 15%;
+    font-size: 0.9em;
+    font-family: var(--font-recipes);
+  }
+		
+	/*estiliza o estado OVER*/
+	.done-btn:hover {
+		z-index: 10;
+		width: 67%;
+		height: 30%;
+		background-color: #ecdede3f;
+		font-family: var(--bs-body-font-family);
+		text-decoration: none;
+		color: #a12323;
+	}
+		
+	/*estiliza o estado OVER*/
+	.favorite-btn:hover {
+		z-index: 10;
+		width: 79%;
+		height: 30%;
+		background-color: #ecdede3f;
+		font-family: var(--bs-body-font-family);
+		text-decoration: none;
+		color: #a12323;
+	}
+
+  .logout-btn {
+    width: 25%;
+    height: 5%;
+    margin: 10% 0% 0% 15%;
+    border-radius: 10%;
+    background-color: var(--cor02);
+    color: #DBE2EC;
+    border-color: rgba(245, 245, 220, 0);
+  }
+
+	/*estiliza o estado OVER*/
+	.logout-btn:hover {
+		z-index: 10;
+		width: 35%;
+		height: 30%;
+		background-color: #ecdede3f;
+		font-family: var(--bs-body-font-family);
+		text-decoration: none;
+		color: #a12323;
+	}

@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor01: #DBE2EC;
+  --cor02: #0E23E5;
+  --cor03: #a12323; /* Cor corrigida, pois estava duplicada */
+  --cor04: #052858de;
+  --fonte-primary: 'League Gothic', sans-serif;
+  --font-second: 'Lekton', sans-serif;
+  --font-recipes: 'Marcellus', serif;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+body {
+  margin: 0; /* Remover margens padrão do corpo */
+}
+
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  z-index: 1000;
+}
+
+.foot-line {
+  width: 70%;
+  height: 1%;
+  margin-bottom: 0.7%;
+  background-color: var(--cor04);
+}
+
+.credits {
+  font-size: 1em;
+  padding: 0.1%;
+  color: var(--cor03);
+  font-family: var(--font-second);
+}
+ 
+
+ 

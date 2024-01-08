@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+:root {
+
+  /*gradiente*/
+
+  --cor01:#DBE2EC;
+  --cor02: #0E23E5;
+  --cor04: #a12323;
+  --cor04:#052858de;
+
+  --fonte-primary: 'League Gothic', sans-serif;
+  --font-second: 'Lekton', sans-serif;
+  --font-recipes: 'Marcellus', serif;
+}
+
+::-webkit-scrollbar {
+  width: 0%;
+  height: 0%;
+}
+
+
+.recommendation-container {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  height: 13%;
+  align-items: center;
+/*   background-color: rgba(99, 72, 72, 0.767); */
+}
+
+
+.recommendation-container button {
+  background-color: rgba(226, 193, 8, 0);
+  transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-color: #0e23e500;
+}
+
+.recommendation-container button:hover {
+  transform: translateY(-5%);
+
+}
+
+.eachRecommendation img {
+  max-height: 50%;
+  max-width: 85%; /* Evitar que a imagem ultrapasse o container */
+  height: auto; /* Manter proporção original */
+  border-radius: 50%;
+  border-color: rgba(39, 156, 156, 0);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.eachRecommendation img:hover {
+  box-shadow: 0px 0px 20px 0px #a123239f; /* Aumenta a sombra quando o hover ocorre */
+}
+
+.eachRecipe p {
+  flex-wrap: wrap;
+  color: var(--cor02);
+  font-family: var(--font-recipes);
+  margin-left: 10%; /* Adicionar margem entre a imagem e o texto */
+  text-align: left; 
+  font-size: 130%;
+/*   background-color: aqua; */
+}
+
+@media all and (max-width: 1366px) {
+  .recipes-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1%;
+    width: 100%;
+    height: 55%;
+    margin-top: 15%; 
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    align-items: center;
+    overflow-y: scroll;
+  /*   background-color: rgb(99, 72, 72); */
+  }
+}
+
+@media all and (max-width: 1440px) {
+  .recipes-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1%;
+    width: 100%;
+    height: 55%;
+    margin: auto;
+    margin-top: 25%; 
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    align-items: center;
+    overflow-y: scroll;
+  /*   background-color: rgb(99, 72, 72); */
+  }
+}
+
+
+

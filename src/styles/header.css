@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+
+  /*gradiente*/
+
+  --cor01:#DBE2EC;
+  --cor02: #0E23E5;
+  --cor03: #052858;
+  --cor04:#a12323;
+
+
+  --fonte-primary: 'League Gothic', sans-serif;
+  --font-second: 'Lekton', sans-serif;
+  --font-recipes: 'Marcellus', serif;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.container-header {
+  position: fixed;
+  top: 0;
+  left: 50%; /* Centralizar horizontalmente */
+  transform: translateX(-50%); /* Centralizar horizontalmente */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 70%;
+  height: 16%;
+  /* background-color: var(--cor01); */
+  z-index: 1000; /* Certifique-se de que o cabeçalho esteja acima do conteúdo */
+}
+  
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+/*     background-color: #23a181;  */
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    justify-content: space-around;
+    padding-left: 0px;
+    padding-bottom: 11px;
+    color: var(--cor02);
+    font-size: 1.3em;
+  /*   background-color: rgb(218, 176, 176); */
+  }
+  
+  .storagerecipe {
+    color: var(--cor02);
+    font-size: 1.7em;
+    word-spacing: 0.5em;
+    /* background-color: var(--cor03); */
+  }
+
+  .header-line {
+    z-index: 1;
+    width: 1290px;
+    height: 2px;
+    background-color: var(--cor02)
+  }
+
+  .a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1px;
+    color: var(--cor02)
+    /* background-color: aqua; */  
+  }
+  
+  /*estiliza o estado UP*/
+  a:link {
+    font-family: var(--bs-body-font-family);
+    text-decoration: none;
+    color: var(--cor02);
+  }
+    
+  /*estiliza o estado OVER*/
+  a:hover {
+    z-index: 10;
+    width: 100px;
+    height: 70px;
+    background-color: #a123233f;
+    font-family: var(--bs-body-font-family);
+    text-decoration: none;
+    color: var(--cor04);
+  }
+  
+  /*estiliza o estado ATIVO*/
+  /* a:active {
+    text-decoration: none;
+    color: #ffffffbc;
+  } */
+  
+  @media all and (max-width: 1366px) {
+    
+    .container-header {
+      position: fixed;
+      top: 0;
+      left: 50%; /* Centralizar horizontalmente */
+      transform: translateX(-50%); /* Centralizar horizontalmente */
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 96%;
+      height: 16%;
+      /* background-color: var(--cor01); */
+      z-index: 1000; /* Certifique-se de que o cabeçalho esteja acima do conteúdo */
+    }
+
+    .nav {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 80%;
+      justify-content: space-around;
+      padding-bottom: 11px;
+      color: var(--cor02);
+      font-size: 1.3em;
+    }
+
+    .storagerecipe {
+      color: var(--cor02);
+      font-size: 1.7em;
+      word-spacing: 0.5em;
+      padding-left: 5%;
+      /* background-color: var(--cor03); */
+    }
+
+
+    .header-line {
+      z-index: 1;
+      width: 1090px;
+      height: 2px;
+      background-color: var(--cor02)
+    }
+    
+    }
+
+    @media all and (max-width: 1440px) {
+    
+      .container-header {
+        position: fixed;
+        top: 0;
+        left: 50%; /* Centralizar horizontalmente */
+        transform: translateX(-50%); /* Centralizar horizontalmente */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 93%;
+        height: 16%;
+        /* background-color: var(--cor01); */
+        z-index: 1000; /* Certifique-se de que o cabeçalho esteja acima do conteúdo */
+      }
+  
+      .nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 80%;
+        justify-content: space-around;
+        padding-bottom: 11px;
+        color: var(--cor02);
+        font-size: 1.3em;
+      }
+  
+      .storagerecipe {
+        color: var(--cor02);
+        font-size: 1.7em;
+        word-spacing: 0.5em;
+        padding-left: 5%;
+        /* background-color: var(--cor03); */
+      }
+  
+  
+      .header-line {
+        z-index: 1;
+        width: 1090px;
+        height: 2px;
+        background-color: var(--cor02)
+      }
+      
+      }
