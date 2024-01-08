@@ -8,6 +8,12 @@ Storage Recipe é um aplicativo de receitas cujo objetivo principal é proporcio
 - **Filtragem Avançada:** Os usuários podem aplicar filtros específicos, como tipo de culinária, tipo de refeição e ingredientes de bebida ou comida, para encontrar receitas adequadas às suas preferências.
 - **Favoritos:** Os usuários têm a capacidade de salvar suas receitas favoritas para fácil acesso posterior.
 
+  
+
+https://github.com/LiviaBoechat/Projeto_StorageRecipe_front/assets/108305176/807e9c91-1036-42bc-9c12-83109178114d
+
+
+
 ## Tecnologias Utilizadas
 
 - HTML, CSS (FlexBox), JavaScript, React
