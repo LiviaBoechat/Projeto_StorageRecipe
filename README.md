@@ -1,6 +1,5 @@
 # Storage Recipe
 
-<details>
   <summary><strong> Habilidades trabalhadas</strong></summary>
 
 - Aplicação o conhecimento do ecossistema Spring para criar rotas da API.
@@ -17,4 +16,4 @@
 - Aplicação do conhecimento sobre Spring Security para adicionar autenticação ao projeto.
 - Garantir que diferentes rotas atenda à regras específicas de autorização. 
 
-</details>
+
